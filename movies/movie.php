@@ -12,4 +12,10 @@ class Movie{
         $this->time = $_time;
     }
 
+    public function getMovie(){
+        return self:: $title;
+        return self:: $year;
+        return self:: $time;
+    }
+
 }

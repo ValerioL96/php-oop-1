@@ -20,4 +20,6 @@ $movie2 = new Movie("Un weekend da bamboccioni", "2010", "102 min");
 //$movie2-> time ="102 min";
 
 var_dump($movie1,$movie2);
+echo $movie1-> getMovie();
+echo $movie2-> getMovie();
 ?>
