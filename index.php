@@ -9,7 +9,15 @@
 require_once __DIR__ . '/movies/movie.php';
 
 
+$movie1 = new Movie();
+$movie1-> title ="Fast & furios";
+$movie1-> year ="2001";
+$movie1-> time ="120 min";
 
+$movie2 = new Movie();
+$movie2-> title ="Un weekend da bamboccioni";
+$movie2-> year ="2010";
+$movie2-> time ="102 min";
 
-
+var_dump($movie1,$movie2);
 ?>
